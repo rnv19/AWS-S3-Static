@@ -36,7 +36,7 @@ class Login extends React.PureComponent {
 			redirect: 'follow'
 		};
 
-		fetch('https://ava9wxofc6.execute-api.ap-south-1.amazonaws.com/dev', requestOptions)
+		fetch('https://mutubyal5k.execute-api.ap-south-1.amazonaws.com/Dev', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				console.log(result);
