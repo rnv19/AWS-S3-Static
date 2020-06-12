@@ -19,7 +19,7 @@ export default function NewNavBar(props) {
 					<Nav className='mr-sm-2'>
 						<Navbar.Text>
 							{/* <p style={{ fontWeight: 'light', color: 'grey', paddingRight: '1vw' }}> */}
-							chandravamsi.sirapu@msitprogram.net
+							{props.name}
 							{/* </p> */}
 						</Navbar.Text>
 						{/* <Nav.Link onClick={() => alert('clicked')}>Home</Nav.Link> */}

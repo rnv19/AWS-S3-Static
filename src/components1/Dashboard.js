@@ -60,6 +60,7 @@ export default class Dashboard extends React.Component {
 				displayTakeTest={this.displayTakeTest}
 				photo={this.props.imageUrl}
 				email={this.props.email}
+				name={this.props.name}
 				logoutSuccess={this.props.logoutSuccess}
 				manageTestActive={manageTestActive}
 				takeTestActive={takeTestActive}
