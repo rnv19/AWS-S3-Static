@@ -104,7 +104,7 @@ export default class GetAllExams extends Component {
 			// this.setState({
 			// 	tableData: responseJson
 			// });
-			fetch('https://v7cm2unj11.execute-api.ap-south-1.amazonaws.com/Dev', requestOptions)
+			fetch('https://a4u6zbrq1m.execute-api.ap-south-1.amazonaws.com/Dev', requestOptions)
 				.then((response) => response.json())
 				.then((responseJson) => {
 					this.toggleLoading();
@@ -123,7 +123,7 @@ export default class GetAllExams extends Component {
 				<Spinner animation='border' variant='primary' />
 			</div>
 		) : (
-			<div>{this.DisplayTable()}</div>
-		);
+				<div>{this.DisplayTable()}</div>
+			);
 	}
 }
