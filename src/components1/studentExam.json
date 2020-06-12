@@ -1,0 +1,48 @@
+{
+    "google_id": "value",
+    "ongoing_exam": {
+        "status": true,
+        "exam_id": "value",
+        "Listening": {
+            "status": "onoging",
+            "AnswersSelected": {
+                "1": "c",
+                "2": "c",
+                "3": "c",
+                "4": "c"
+            }
+        },
+        "Reading": {
+            "status": "notStarted",
+            "AnswersSelected": {
+                "1": "c",
+                "2": "c",
+                "3": "c",
+                "4": "c"
+            }
+        },
+        "Speaking": {
+            "status": "Finished",
+            "AnswersSelected": {
+                "1": "c",
+                "2": "c",
+                "3": "c",
+                "4": "c"
+            }
+        },
+        "writing": {
+            "status": "notStarted",
+            "AnswersSelected": {
+                "1": "c",
+                "2": "c",
+                "3": "c",
+                "4": "c"
+            }
+        }
+    },
+    "exam_history": {
+        "exam_id": "solutionPath",
+        "exam_id2": "solutionPath",
+        "exam_id3": "noresult"
+    }
+}
